@@ -1,0 +1,17 @@
+---
+-
+ host: SRV-Vaibhav
+
+ task: 
+   - name: create folder wingrp
+     win_file:
+      path: c:/wingrp
+      state: directory
+   - name: copy test.ps1 to destination
+     win_copy:
+      src: test.ps1
+      dest: c:/wingrp/test.ps1
+
+
+
+...
