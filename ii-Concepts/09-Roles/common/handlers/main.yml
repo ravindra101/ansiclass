@@ -1,6 +1,6 @@
 ---
 # handlers file for common
-- name: send_a_mail
+- name: win_copy
   debug:
-    msg: "Sending a mail"
+    msg: "copy files"
     
