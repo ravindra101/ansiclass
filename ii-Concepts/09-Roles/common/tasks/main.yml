@@ -1,5 +1,9 @@
 ---
 # tasks file for common
+- name: Creates directory
+  win_file:
+    path: "c:\ravi"
+    state: directory
 
 - name: copyfiles
   win_copy:
