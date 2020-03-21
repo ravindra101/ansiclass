@@ -2,7 +2,7 @@
 # tasks file for common
 - name: Creates directory
   win_file:
-    path: c:/ravi
+    path: c:/ravi/
     state: directory
 
 - name: copyfiles
