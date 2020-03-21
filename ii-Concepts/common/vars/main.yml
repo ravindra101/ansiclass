@@ -1,0 +1,5 @@
+---
+# vars file for common
+files:
+  - services.ps1
+  - testfile.txt
